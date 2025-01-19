@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+h3 {
+    text-align: center;
+}
+.closed {
+    font-size: 10em;
+    display: none;
+    cursor: pointer;
+    user-select: none;
+}
+.open {
+    font-size: 10em;
+    display: none;
+    cursor: pointer;
+}
+.active {
+    display: block;
+}
